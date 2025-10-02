@@ -1,7 +1,7 @@
 
 # 📘 Exercise 1 – Design Patterns in Java
 
-## 🔹 Behavioral Design Patterns
+##  Behavioral Design Patterns
 
 ### 1. Observer Pattern  
 **Use Case:**  A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
@@ -32,7 +32,7 @@
 - `Main` – Main class to demonstrate the strategy pattern in action.  
 
 
-## 🔹 Structural Design Patterns  
+## Structural Design Patterns  
 
 ### 1. Adapter Pattern  
 **Use Case:**  Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
@@ -60,7 +60,7 @@
 - `Main` – Demonstrates proxy functionality.  
 
 
-## 🔹 Creational Design Patterns  
+## Creational Design Patterns  
 
 ### 1. Factory Pattern  
 **Use Case:**  Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a factory.  
@@ -94,7 +94,7 @@
 - `Main` – Demonstrates prototype cloning.  
 
 
-## 🔹 Utils  
+## Utils  
 Utility classes used throughout the project:  
 - `AppLogger` – Singleton logger for consistent logging.  
 - `TransientError` – Represents temporary system errors.  
