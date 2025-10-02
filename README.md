@@ -221,7 +221,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
    cd Ei_Project
 
 2. **Compile**
-   Ensure JDK 17+ is installed. Compile all sources:\n
+   Ensure JDK 17+ is installed.
    The below command compiles all the dependendcies required for Main.java.
    ```bash
    javac -d exercise_2\bin -sourcepath . exercise_2\SmartHomeSystem\Main\Main.java
