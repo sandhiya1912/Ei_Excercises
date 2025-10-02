@@ -1,8 +1,6 @@
 
 # 📘 Exercise 1 – Design Patterns in Java
 
----
-
 ## 🔹 Behavioral Design Patterns
 
 ### 1. Observer Pattern  
@@ -20,7 +18,6 @@ Observer pattern allows **subjects (channels)** to notify **observers (subscribe
 - `YouTubeChannel` – Concrete subject, manages subscribers and notifies them about updates.  
 - `YouTubeMain` – Main class to demonstrate the observer workflow.  
 
----
 
 ### 2. Strategy Pattern  
 **Use Case:**  
@@ -38,7 +35,6 @@ Strategy pattern defines multiple algorithms (notification methods) and switches
 - `NotificationClient` – Client that selects and executes a notification strategy.  
 - `Main` – Main class to demonstrate the strategy pattern in action.  
 
----
 
 ## 🔹 Structural Design Patterns  
 
@@ -54,9 +50,8 @@ Adapter pattern bridges the old system and the new system, allowing integration 
 - `AttendanceSystem` – Adapter interface that defines new system operations.  
 - `NewAttendanceSystem` – Adapter implementation bridging old and new systems.  
 - `Student` – Represents a student whose attendance is tracked.  
-- `Main` – Demonstrates the adapter pattern.  
+- `Main` – Demonstrates the adapter pattern.
 
----
 
 ### 2. Proxy Pattern  
 **Use Case:**  
@@ -72,7 +67,6 @@ Proxy pattern controls access to the real service by adding extra features (logg
 - `ProxyBankService` – Proxy that adds logging and security checks before accessing `RealBankService`.  
 - `Main` – Demonstrates proxy functionality.  
 
----
 
 ## 🔹 Creational Design Patterns  
 
@@ -95,7 +89,6 @@ Factory pattern provides an interface for creating objects, letting subclasses d
 - `Client` – Requests appliances through factories.  
 - `Main` – Demonstrates the factory pattern.  
 
----
 
 ### 2. Prototype Pattern  
 **Use Case:**  
@@ -112,7 +105,6 @@ Prototype pattern allows cloning existing documents, useful when object creation
 - `DocumentClient` – Client that clones documents.  
 - `Main` – Demonstrates prototype cloning.  
 
----
 
 ## 🔹 Utils  
 Utility classes used throughout the project:  
@@ -120,6 +112,5 @@ Utility classes used throughout the project:
 - `TransientError` – Represents temporary system errors.  
 - `TransientException` – Custom exception for transient error handling.  
 
----
 
 ✅ This project is a practical guide to **Java Design Patterns** with real-world examples of **Creational, Structural, and Behavioral patterns**.  
