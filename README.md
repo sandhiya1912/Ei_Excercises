@@ -135,11 +135,11 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 **Classes**: `SmartHomeProxy`, `SmartHomeHub`
 
 ### Observer Pattern
-**Purpose:**  Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.<br></br>
-**Classes**: `Observer`, `ObserverDevice`
+**Purpose:** Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.  
+**Classes**:  `Observer`, `ObserverDevice`
 
 ### Singleton Pattern (Implicit functionality)
-**Purpose:**  A singleton application logger for tracking device actions, errors, and system events and storing them in a log file.<br></br>
+**Purpose:**  A singleton application logger for tracking device actions, errors, and system events.  
 **Classes**: `AppLoger`, Log file: `smarthome.log`
 
 ### Classes & Responsibilities
