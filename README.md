@@ -236,14 +236,11 @@ Notifies registered observers of device state changes, enabling reactive behavio
 - **Logging:** Custom file-based logger
 - **IDE:** IntelliJ IDEA
 
---
 
 ## Contact
 
-**Email:** your.email@example.com
+**Email:** your.email@example.com<br></br>
 **GitHub:** github.com/yourusername
-
---
 
 Feel free to reach out for questions or contributions!
 
