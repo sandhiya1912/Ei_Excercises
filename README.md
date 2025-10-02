@@ -4,11 +4,9 @@
 ## 🔹 Behavioral Design Patterns
 
 ### 1. Observer Pattern  
-**Use Case:**  
-A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
+**Use Case:**  A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
 
-**Relation to Pattern:**  
-Observer pattern allows **subjects (channels)** to notify **observers (subscribers)** about state changes (new content).  
+**Relation to Pattern:**  Observer pattern allows **subjects (channels)** to notify **observers (subscribers)** about state changes (new content).  
 
 **Classes:**  
 - `Content` – Represents the video or content uploaded to a channel.  
@@ -20,11 +18,9 @@ Observer pattern allows **subjects (channels)** to notify **observers (subscribe
 
 
 ### 2. Strategy Pattern  
-**Use Case:**  
-A flexible notification system (Email, SMS, WhatsApp, Push) that can be changed at runtime.  
+**Use Case:**  A flexible notification system (Email, SMS, WhatsApp, Push) that can be changed at runtime.  
 
-**Relation to Pattern:**  
-Strategy pattern defines multiple algorithms (notification methods) and switches between them without altering client code.  
+**Relation to Pattern:**  Strategy pattern defines multiple algorithms (notification methods) and switches between them without altering client code.  
 
 **Classes:**  
 - `NotificationService` – Strategy interface for notification.  
@@ -39,11 +35,9 @@ Strategy pattern defines multiple algorithms (notification methods) and switches
 ## 🔹 Structural Design Patterns  
 
 ### 1. Adapter Pattern  
-**Use Case:**  
-Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
+**Use Case:**  Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
 
-**Relation to Pattern:**  
-Adapter pattern bridges the old system and the new system, allowing integration without modifying the old code.  
+**Relation to Pattern:**  Adapter pattern bridges the old system and the new system, allowing integration without modifying the old code.  
 
 **Classes:**  
 - `OldAttendanceSystem` – Represents the legacy attendance system.  
@@ -54,11 +48,9 @@ Adapter pattern bridges the old system and the new system, allowing integration 
 
 
 ### 2. Proxy Pattern  
-**Use Case:**  
-A secure banking service with logging and security checks before accessing real banking services (deposit, withdraw).  
+**Use Case:**  A secure banking service with logging and security checks before accessing real banking services (deposit, withdraw).  
 
-**Relation to Pattern:**  
-Proxy pattern controls access to the real service by adding extra features (logging, security).  
+**Relation to Pattern:**  Proxy pattern controls access to the real service by adding extra features (logging, security).  
 
 **Classes:**  
 - `UserBank` – Represents a user in the banking system.  
@@ -71,11 +63,9 @@ Proxy pattern controls access to the real service by adding extra features (logg
 ## 🔹 Creational Design Patterns  
 
 ### 1. Factory Pattern  
-**Use Case:**  
-Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a factory.  
+**Use Case:**  Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a factory.  
 
-**Relation to Pattern:**  
-Factory pattern provides an interface for creating objects, letting subclasses decide which appliance to create.  
+**Relation to Pattern:**  Factory pattern provides an interface for creating objects, letting subclasses decide which appliance to create.  
 
 **Classes:**  
 - `HomeAppliance` – Abstract product representing appliances.  
@@ -91,11 +81,9 @@ Factory pattern provides an interface for creating objects, letting subclasses d
 
 
 ### 2. Prototype Pattern  
-**Use Case:**  
-Duplicating different types of documents (PPT, Report, Resume) efficiently without recreating from scratch.  
+**Use Case:**  Duplicating different types of documents (PPT, Report, Resume) efficiently without recreating from scratch.  
 
-**Relation to Pattern:**  
-Prototype pattern allows cloning existing documents, useful when object creation is costly.  
+**Relation to Pattern:**  Prototype pattern allows cloning existing documents, useful when object creation is costly.  
 
 **Classes:**  
 - `Document` – Abstract prototype defining clone behavior.  
@@ -110,7 +98,4 @@ Prototype pattern allows cloning existing documents, useful when object creation
 Utility classes used throughout the project:  
 - `AppLogger` – Singleton logger for consistent logging.  
 - `TransientError` – Represents temporary system errors.  
-- `TransientException` – Custom exception for transient error handling.  
-
-
-✅ This project is a practical guide to **Java Design Patterns** with real-world examples of **Creational, Structural, and Behavioral patterns**.  
+- `TransientException` – Custom exception for transient error handling.   
