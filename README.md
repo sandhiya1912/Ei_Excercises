@@ -136,10 +136,10 @@ Abstracts device creation, allowing the system to produce different device types
 Controls access to the Smart Home Hub, authenticating users and checking permissions before delegating requests.  
 **Classes**: 
 - `SmartHomeProxy` - Proxy Class that ensure the admin has full access and guest user has read-only access.
-- `SmartHomeHub` - A central Hub that implements all the functionality for Smart Home System.
+- `SmartHomeHub` - A central Hub that implements all the functionalites for Smart Home System.
 
 ### Observer Pattern
-Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.  
+Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.  <br></br?
 **Classes**:
 - `Observer` - Interface for observer devices.
 - `ObserverDevice` - Class that implements Observer Operations (addObservers, removeObservers, notifyObservers).
