@@ -163,7 +163,8 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-![Add Device](screenshots/add_device.png)
+Here’s how to add a device to the Smart Home System:
+<img src="screenshots/add.png" alt="Add Device" width="400">
 
 ### Remove a Device
 ![Remove Device Screenshot](screenshots/control_device.png)
