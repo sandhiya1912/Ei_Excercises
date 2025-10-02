@@ -111,7 +111,6 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ## Features
 
-| Feature              | Description |
 |-----------------------|-------------|
 | **Device Management** | Add, remove, and control devices (Door, Light, Thermostat) with status updates. |
 | **Dynamic Device Creation** | Uses the Factory pattern to add/remove device types dynamically at runtime. |
