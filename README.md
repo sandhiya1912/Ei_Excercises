@@ -1,5 +1,5 @@
 
-# 📘 Exercise 1 – Design Patterns in Java
+# Exercise 1 – Design Patterns with Usecase
 
 ##  Behavioral Design Patterns
 
