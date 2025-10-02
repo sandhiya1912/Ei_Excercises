@@ -107,7 +107,6 @@ Utility classes used throughout the project:
 
 The **Smart Home System** is a **console-based mini-project** that simulates the control of smart devices such as **Lights, Thermostats, and Door Locks** through a central hub. The system supports dynamic device creation, event-driven notifications, schedule and trigger automations, and secure access control.
 
----
 
 ## Features
 
@@ -121,7 +120,6 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 - **Error Handling**:          Custom exceptions for transient issues, ensuring graceful recovery.  
 - **User Authentication**:     Simple admin/guest modes with role-based functionality.
 
----
 
 ## Functionality
 
@@ -133,7 +131,6 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 - Read-only access: View device statuses, schedules, and triggers.  
 - Limited interactions: No ability to add devices, modify schedules, or access logs.
 
----
 
 ## Design Patterns Used
 
@@ -149,7 +146,6 @@ Controls access to the Smart Home Hub, authenticating users and checking permiss
 Notifies registered observers of device state changes, enabling reactive behaviors like alerts or automation.  
 **Classes**: `Observer`, `ObserverDevice`.
 
----
 
 ## Utilities
 
@@ -157,7 +153,6 @@ Notifies registered observers of device state changes, enabling reactive behavio
 - **Exceptions**: `TransientException` handles temporary failures with retry logic.  
 - **Smart Home Log File**: Records entries like `"Device 'Light1' toggled ON at 2025-10-02 14:30:00"`.
 
----
 
 ## Working of Smart Home System
 
@@ -208,7 +203,6 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ### Log File (smarthome.log)
 <img width="520" height="339" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
 
----
 
 ## Setup & Configuration
 
@@ -221,7 +215,6 @@ Notifies registered observers of device state changes, enabling reactive behavio
    Ensure JDK 8+ is installed. Compile all sources:
    ```bash
    javac -d bin -sourcepath src src/exercise.2.SmartHomeSystem/**/*.java
-
 
 3. **Run the Application**
    ```bash
