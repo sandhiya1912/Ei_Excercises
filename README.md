@@ -128,44 +128,35 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ### Factory Pattern
 **Purpose:** Abstracts device creation, allowing the system to produce different device types (Door, Light, Thermostat) dynamically.  
-
-**Classes**: 
-- `DeviceFactory` - Interface of factories
-- `DeviceFactories` - Concrete factory for creating devices (Light, Thermostat, Door).
+**Classes**: `DeviceFactory`, `DeviceFactories` 
 
 ### Proxy Pattern
 **Purpose:**  Controls access to the Smart Home Hub, authenticating users and checking permissions before delegating requests.  
-
-**Classes**: 
-- `SmartHomeProxy` - Proxy Class that ensure the admin has full access and guest user has read-only access.
-- `SmartHomeHub` - A central Hub that implements all the functionalites for Smart Home System.
+**Classes**: `SmartHomeProxy`, `SmartHomeHub`
 
 ### Observer Pattern
 **Purpose:**  Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.
-
-**Classes**:
-- `Observer` - Interface for observer devices.
-- `ObserverDevice` - Class that implements Observer Operations (addObservers, removeObservers, notifyObservers).
+**Classes**: `Observer`, `ObserverDevice`
 
 ### Classes & Responsibilities
 
-- **Device.java** – Base class for all smart devices, defining common properties and actions.  
-- **Door.java** – Represents a smart door with open/close functionality.  
-- **Light.java** – Represents a smart light with on/off and brightness controls.  
-- **Thermostat.java** – Represents a smart thermostat with temperature controls.  
-- **DeviceFactory.java** – Interface for creating smart devices dynamically.  
-- **DeviceFactories.java** – Concrete factory implementing creation logic for different devices.  
-- **Schedules.java** – Represents scheduled tasks for devices (timed automations).  
-- **Triggers.java** – Represents event-based rules to automate device actions.  
-- **SmartHomeAccess.java** – Handles access control logic for admin and guest users.  
-- **SmartHomeHub.java** – Central hub managing devices, schedules, triggers, and notifications.  
-- **Main.java** – Entry point to run and demonstrate the Smart Home System.  
-- **Observer.java** – Interface for implementing observer behavior for devices.  
-- **ObserverDevice.java** – Implements Observer methods to receive device state updates.  
-- **SmartHomeProxy.java** – Proxy class controlling user access and permissions to the hub.  
-- **TransientError.java** – Represents temporary system errors that may require retries.  
-- **TransientException.java** – Custom exception to handle transient errors gracefully.  
-- **AppLogger.java** – Singleton logger for tracking device actions, errors, and system events.  
+- `Device.java` – Base class for all smart devices, defining common properties and actions.  
+- `Door.java` – Represents a smart door with open/close functionality.  
+- `Light.java` – Represents a smart light with on/off and brightness controls.  
+- `Thermostat` – Represents a smart thermostat with temperature controls.  
+- `DeviceFactory` - Interface of factories
+- `DeviceFactories` - Concrete factory for creating devices (Light, Thermostat, Door).
+- `Schedules` – Represents scheduled tasks for devices (timed automations).  
+- `Triggers` – Represents event-based rules to automate device actions.  
+- `SmartHomeProxy` - Proxy Class that ensure the admin has full access and guest user has read-only access.
+- `SmartHomeHub` - A central Hub that implements all the functionalites for Smart Home System.
+- `Main.java` – Entry point to run and demonstrate the Smart Home System.  
+- `Observer` - Interface for observer devices.
+- `ObserverDevice` - Class that implements Observer Operations (addObservers, removeObservers, notifyObservers).
+- `SmartHomeProxy` – Proxy class controlling user access and permissions to the hub.  
+- `TransientError` – Represents temporary system errors that may require retries.  
+- `TransientException` – Custom exception to handle transient errors gracefully.  
+- `AppLogger` – Singleton logger for tracking device actions, errors, and system events.  
 
 ## Utilities
 
