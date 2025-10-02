@@ -168,6 +168,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <br></br>
 <img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
 <br></br>
+
 ### Turn On a Device
 <img width="340" height="190" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
 
