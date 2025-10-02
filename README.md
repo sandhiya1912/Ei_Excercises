@@ -164,6 +164,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 
 ### Add a Device
 Here’s how to add a device to the Smart Home System:
+
 <img width="552" height="620" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
 
 ### Remove a Device
