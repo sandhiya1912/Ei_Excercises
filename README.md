@@ -162,8 +162,8 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-<img width="300" height="310" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
-
+<img width="300" height="310" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" /> 
+<br></br>
 <img width="401" height="220" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
 
 <img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
