@@ -232,11 +232,20 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ## Tech Stack Used
 
-Programming Language : Java (JDK 17+)
-Design Patterns      : Factory, Proxy, Observer
-Build & Execution    : Native javac and java commands
-Logging              : Custom file-based logging system (AppLogger)
-Version Control      : Git and GitHub
+**Programming Language**  
+Java (JDK 17+)  
+
+**Design Patterns**  
+Factory, Proxy, Observer  
+
+**Build & Execution**  
+Native `javac` and `java` commands  
+
+**Logging**  
+Custom file-based logging system (`AppLogger`)  
+
+**Version Control**  
+Git and GitHub  
 
   
 
