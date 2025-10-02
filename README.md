@@ -204,8 +204,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <br></br>
 <img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
 <br></br>
-<img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/4b4b0da4-112e-4df6-a68f-1edecabaedc0" />
-<br></br>
+<img width="400" height="250" alt="Image" src="https://github.com/user-attachments/assets/4b4b0da4-112e-4df6-a68f-1edecabaedc0" />
 
 ### Log File (smarthome.log)
 <img width="520" height="339" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
