@@ -167,7 +167,6 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <img width="401" height="220" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
 <br></br>
 <img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
-<br></br>
 
 ### Turn On a Device
 <img width="340" height="190" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
@@ -176,13 +175,13 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <img width="325" height="193" alt="Image" src="https://github.com/user-attachments/assets/f7a89e3c-ae89-4e9d-b534-2899371b53cd" />
 
 ### Configure a Device
-<img width="401" height="199" alt="Image" src="https://github.com/user-attachments/assets/b945b24c-1567-45bd-a0e5-2416747e7632" />
+<img width="450" height="240" alt="Image" src="https://github.com/user-attachments/assets/b945b24c-1567-45bd-a0e5-2416747e7632" />
 
 ### Set Schedule
 <img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/f1ca8870-7277-4957-8011-3a90a0a543dd" />
 
 ### Add Trigger
-<img width="401" height="225" alt="Image" src="https://github.com/user-attachments/assets/406f2d7a-afca-405f-b303-bf5f315eeb73" />
+<img width="450" height="260" alt="Image" src="https://github.com/user-attachments/assets/406f2d7a-afca-405f-b303-bf5f315eeb73" />
 
 ### Remove a Device
 <img width="320" height="194" alt="Image" src="https://github.com/user-attachments/assets/32959835-4c0f-42b0-bc42-082e8020b06e" />
@@ -204,7 +203,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <br></br>
 <img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
 <br></br>
-<img width="400" height="250" alt="Image" src="https://github.com/user-attachments/assets/4b4b0da4-112e-4df6-a68f-1edecabaedc0" />
+<img width="450" height="300" alt="Image" src="https://github.com/user-attachments/assets/4b4b0da4-112e-4df6-a68f-1edecabaedc0" />
 
 ### Log File (smarthome.log)
 <img width="520" height="339" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
