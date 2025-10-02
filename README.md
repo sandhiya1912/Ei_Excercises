@@ -1,4 +1,3 @@
-<img width="863" height="969" alt="image" src="https://github.com/user-attachments/assets/1ae6479e-250a-48ea-b4a2-61eb812aafc6" />
 # Exercise 1 – Design Patterns with Usecase
 
 ##  Behavioral Design Patterns
@@ -163,39 +162,49 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-Here’s how to add a device to the Smart Home System:
+<img width="400" height="520" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
 
-<img width="552" height="620" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
+<img width="602" height="239" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
+
+<img width="602" height="201" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
+
+### Turn On a Device
+<img width="486" height="180" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
+
+### Turn Off a Device
+<img width="455" height="188" alt="Image" src="https://github.com/user-attachments/assets/f7a89e3c-ae89-4e9d-b534-2899371b53cd" />
+
+### Configure a Device
+<img width="602" height="197" alt="Image" src="https://github.com/user-attachments/assets/b945b24c-1567-45bd-a0e5-2416747e7632" />
+
+### Set Schedule
+<img width="602" height="211" alt="Image" src="https://github.com/user-attachments/assets/f1ca8870-7277-4957-8011-3a90a0a543dd" />
+
+### Add Trigger
+<img width="602" height="256" alt="Image" src="https://github.com/user-attachments/assets/406f2d7a-afca-405f-b303-bf5f315eeb73" />
 
 ### Remove a Device
 ![Remove Device Screenshot](screenshots/control_device.png)
 
-### Turn On a Device
-![Turn On Device Screenshot](screenshots/control_device.png)
-
-### Turn Off a Device
-![Turn Off Device Screenshot](screenshots/control_device.png)
-
-### Configure a Device
-![Configure Device Screenshot](screenshots/control_device.png)
-
-### Set Schedule
-![Set Schedule Screenshot](screenshots/manage_schedules.png)
-
-### Add Trigger
-![Add Trigger Screenshot](screenshots/set_triggers.png)
-
 ### Show Status
-![Show Status Screenshot](screenshots/set_triggers.png)
+<img width="509" height="199" alt="Image" src="https://github.com/user-attachments/assets/e8239321-755c-4f8f-a52d-db13d68c76b9" />
 
 ### Show Schedules
-![Show Schedules Screenshot](screenshots/set_triggers.png)
+<img width="531" height="153" alt="Image" src="https://github.com/user-attachments/assets/9192f4d9-fe43-4b8d-aa19-10b4f6882f75" />
 
 ### Show Triggers
-![Show Triggers Screenshot](screenshots/set_triggers.png)
+<img width="602" height="142" alt="Image" src="https://github.com/user-attachments/assets/c6f7020f-4d97-48da-bc1e-51adf95fb334" />
 
 ### Guest Mode
-![Guest Mode Screenshot](screenshots/set_triggers.png)
+<img width="602" height="536" alt="Image" src="https://github.com/user-attachments/assets/0785c256-d479-4af8-a444-504d80a2c068" />
+
+### Error Handling
+<img width="552" height="620" alt="Image" src="https://github.com/user-attachments/assets/d0267fdf-98c3-47ea-8449-be3a6781dc1d" />
+<img width="602" height="180" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" />
+<img width="517" height="196" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
+
+### Log File (smarthome.log)
+<img width="420" height="239" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
 
 ---
 
@@ -205,4 +214,33 @@ Here’s how to add a device to the Smart Home System:
    ```bash
    git clone https://github.com/yourusername/smart-home-system.git
    cd smart-home-system
+
+2. **Compile**
+   Ensure JDK 8+ is installed. Compile all sources:
+   ```bash
+   javac -d bin -sourcepath src src/exercise.2.SmartHomeSystem/**/*.java
+
+
+3. **Run the Application**
+   ```bash
+   java -cp bin exercise.2.SmartHomeSystem.Main
+
+## Tech Stack Used
+
+**Programming Language:** Java 8+
+
+**Design Patterns:** Factory, Proxy, Observer
+
+**Build Tools: Native javac
+
+**Logging: Custom file-based logger
+
+**IDE: IntelliJ IDEA
+--
+## Contact
+
+**Email:** your.email@example.com
+**GitHub:** github.com/yourusername
+
+Feel free to reach out for questions or contributions!
 
