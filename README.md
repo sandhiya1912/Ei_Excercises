@@ -102,8 +102,7 @@ Utility classes used throughout the project:
 
 ---
 
-# Exercise 2 - Mini Project 
-# Smart Home System
+# Exercise 2 - Smart Home System (Mini Project) 
 
 ## Application Overview
 
