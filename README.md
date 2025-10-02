@@ -249,7 +249,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 | Category                       | Tools / Technologies |
 |--------------------------------|--------------------|
 | **Programming Language**        | Java (JDK 17+) |
-| **Design Patterns**             | Factory, Proxy, Observer |
+| **Design Patterns**             | Factory, Proxy, Observer, Singleton |
 | **Build & Execution**           | Native `javac` and `java` commands |
 | **Logging**                     | Custom file-based logging system (`AppLogger`) |
 | **Version Control & Collaboration** | Git and GitHub |
