@@ -208,21 +208,22 @@ Notifies registered observers of device state changes, enabling reactive behavio
 
 1. **Clone the repository**:  
    ```bash
-   git clone https://github.com/yourusername/smart-home-system.git
-   cd smart-home-system
+   git clone https://github.com/sandhiya1912/Ei_Project.git
+   cd Ei_Project
 
 2. **Compile**
-   Ensure JDK 8+ is installed. Compile all sources:
+   Ensure JDK 17+ is installed. Compile all sources:
+   The below command compiles all the dependendcies required for Main.java.
    ```bash
-   javac -d bin -sourcepath src src/exercise.2.SmartHomeSystem/**/*.java
+   javac -d exercise_2\bin -sourcepath . exercise_2\SmartHomeSystem\Main\Main.java
 
-3. **Run the Application**
+4. **Run the Application**
    ```bash
-   java -cp bin exercise.2.SmartHomeSystem.Main
+   java -cp exercise_2\bin exercise_2.SmartHomeSystem.Main.Main
 
 ## Tech Stack Used
 
-- **Programming Language:** Java 8+
+- **Programming Language:** Java JDK 17+
 - **Design Patterns:** Factory, Proxy, Observer
 - **Build Tools:** Native javac
 - **Logging:** Custom file-based logger
