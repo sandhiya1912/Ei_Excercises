@@ -107,7 +107,7 @@ Utility classes used throughout the project:
 
 The **Smart Home System** is a **console-based mini-project** that simulates the control of smart devices such as **Lights, Thermostats, and Door Locks** through a central hub. The system supports dynamic device creation, event-driven notifications, schedule and trigger automations, and secure access control.
 
-
+--
 ## Features
 
 - **Device Management**:       Add, remove, and control devices (Door, Light, Thermostat) with status updates.  
@@ -120,6 +120,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 - **Error Handling**:          Custom exceptions for transient issues, ensuring graceful recovery.  
 - **User Authentication**:     Simple admin/guest modes with role-based functionality.
 
+--
 
 ## Functionality
 
@@ -131,6 +132,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 - Read-only access: View device statuses, schedules, and triggers.  
 - Limited interactions: No ability to add devices, modify schedules, or access logs.
 
+--
 
 ## Design Patterns Used
 
