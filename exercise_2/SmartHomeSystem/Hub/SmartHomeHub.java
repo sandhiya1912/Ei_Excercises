@@ -15,8 +15,6 @@ import java.time.*;
 import java.time.format.*;
 
 
-
-
 public class SmartHomeHub implements SmartHomeAccess {
     private final Map<Integer, Device> devices;
     private final List<Schedules> schedules;
