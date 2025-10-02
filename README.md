@@ -260,5 +260,5 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 - **Email:** sandhiyapomman@gmail.com
 - **GitHub:** [github.com/sandhiyapomman](https://github.com/sandhiya1912/Sandhiya-Pomman)
 
-Thanking you for reviewing and using this project!
+Thanking you for reviewing this project!
 
