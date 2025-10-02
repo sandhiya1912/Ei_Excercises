@@ -162,50 +162,51 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-#### Add a Light
-<img width="200" height="210" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
-#### Add a Thermostat
-<img width="301" height="120" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
-#### Add a Door
-<img width="301" height="100" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
+<img width="300" height="310" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
+
+<img width="401" height="220" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
+
+<img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
 
 ### Turn On a Device
-<img width="240" height="90" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
+<img width="340" height="190" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
 
 ### Turn Off a Device
-<img width="225" height="93" alt="Image" src="https://github.com/user-attachments/assets/f7a89e3c-ae89-4e9d-b534-2899371b53cd" />
+<img width="325" height="193" alt="Image" src="https://github.com/user-attachments/assets/f7a89e3c-ae89-4e9d-b534-2899371b53cd" />
 
 ### Configure a Device
-<img width="301" height="99" alt="Image" src="https://github.com/user-attachments/assets/b945b24c-1567-45bd-a0e5-2416747e7632" />
+<img width="401" height="199" alt="Image" src="https://github.com/user-attachments/assets/b945b24c-1567-45bd-a0e5-2416747e7632" />
 
 ### Set Schedule
-<img width="301" height="100" alt="Image" src="https://github.com/user-attachments/assets/f1ca8870-7277-4957-8011-3a90a0a543dd" />
+<img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/f1ca8870-7277-4957-8011-3a90a0a543dd" />
 
 ### Add Trigger
-<img width="301" height="125" alt="Image" src="https://github.com/user-attachments/assets/406f2d7a-afca-405f-b303-bf5f315eeb73" />
+<img width="401" height="225" alt="Image" src="https://github.com/user-attachments/assets/406f2d7a-afca-405f-b303-bf5f315eeb73" />
 
 ### Remove a Device
-<img width="220" height="94" alt="Image" src="https://github.com/user-attachments/assets/32959835-4c0f-42b0-bc42-082e8020b06e" />
+<img width="320" height="194" alt="Image" src="https://github.com/user-attachments/assets/32959835-4c0f-42b0-bc42-082e8020b06e" />
 
 ### Show Status
-<img width="250" height="100" alt="Image" src="https://github.com/user-attachments/assets/e8239321-755c-4f8f-a52d-db13d68c76b9" />
+<img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/e8239321-755c-4f8f-a52d-db13d68c76b9" />
 
 ### Show Schedules
-<img width="250" height="80" alt="Image" src="https://github.com/user-attachments/assets/9192f4d9-fe43-4b8d-aa19-10b4f6882f75" />
+<img width="350" height="180" alt="Image" src="https://github.com/user-attachments/assets/9192f4d9-fe43-4b8d-aa19-10b4f6882f75" />
 
 ### Show Triggers
-<img width="301" height="70" alt="Image" src="https://github.com/user-attachments/assets/c6f7020f-4d97-48da-bc1e-51adf95fb334" />
+<img width="401" height="170" alt="Image" src="https://github.com/user-attachments/assets/c6f7020f-4d97-48da-bc1e-51adf95fb334" />
 
 ### Guest Mode
-<img width="301" height="250" alt="Image" src="https://github.com/user-attachments/assets/0785c256-d479-4af8-a444-504d80a2c068" />
+<img width="401" height="350" alt="Image" src="https://github.com/user-attachments/assets/0785c256-d479-4af8-a444-504d80a2c068" />
 
 ### Error Handling
-<img width="250" height="300" alt="Image" src="https://github.com/user-attachments/assets/d0267fdf-98c3-47ea-8449-be3a6781dc1d" /></br>
-<img width="300" height="90" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" /></br>
-<img width="250" height="100" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
+<img width="350" height="400" alt="Image" src="https://github.com/user-attachments/assets/d0267fdf-98c3-47ea-8449-be3a6781dc1d" />
+
+<img width="400" height="190" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" />
+
+<img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
 
 ### Log File (smarthome.log)
-<img width="420" height="239" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
+<img width="520" height="339" alt="Image" src="https://github.com/user-attachments/assets/3970326b-1cfa-441b-af2d-0565035919cd" />
 
 ---
 
@@ -228,20 +229,20 @@ Notifies registered observers of device state changes, enabling reactive behavio
 
 ## Tech Stack Used
 
-**Programming Language:** Java 8+
+- **Programming Language:** Java 8+
+- **Design Patterns:** Factory, Proxy, Observer
+- **Build Tools:** Native javac
+- **Logging:** Custom file-based logger
+- **IDE:** IntelliJ IDEA
 
-**Design Patterns:** Factory, Proxy, Observer
-
-**Build Tools:** Native javac
-
-**Logging:** Custom file-based logger
-
-**IDE:** IntelliJ IDEA
 --
+
 ## Contact
 
 **Email:** your.email@example.com
 **GitHub:** github.com/yourusername
+
+--
 
 Feel free to reach out for questions or contributions!
 
