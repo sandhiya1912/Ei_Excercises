@@ -119,7 +119,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 | **Scheduling**        | Set timed automations for devices, like turning lights on/off at specific hours. |
 | **Triggers**          | Event-based rules, such as turning off the lights when the temperature is beyond the threshold. |
 | **Event Notifications** | Observer pattern enables real-time alerts to observers on device state changes. |
-| **Logging System**    | Comprehensive event logging to `smarthome.log` for tracking actions and errors. |
+| **Logging System**    | Event logging to `smarthome.log` for tracking actions and errors. |
 | **Error Handling**    | Default and Custom exceptions for device-not-found errors, transient issues with recovery attempts. |
 | **User Authentication** | Simple admin/guest modes with role-based functionality. |
 
