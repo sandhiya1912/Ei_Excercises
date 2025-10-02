@@ -111,15 +111,17 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ## Features
 
-- **Device Management**:       Add, remove, and control devices (Door, Light, Thermostat) with status updates.  
-- **Dynamic Device Creation**: Uses the Factory pattern to instantiate device types dynamically without hardcoding.  
-- **Event Notifications**:     Observer pattern enables real-time alerts on device state changes (e.g., door opened).  
-- **Access Control**:          Proxy pattern enforces admin/guest permissions for secure interactions.  
-- **Scheduling**:              Set timed automations for devices, like turning lights on/off at specific hours.  
-- **Triggers**:                Event-based rules, such as activating lights when motion is detected via door sensor.  
-- **Logging System**:          Comprehensive event logging to `smarthome.log` for tracking actions and errors.  
-- **Error Handling**:          Custom exceptions for transient issues, ensuring graceful recovery.  
-- **User Authentication**:     Simple admin/guest modes with role-based functionality.
+| Feature              | Description |
+|-----------------------|-------------|
+| **Device Management** | Add, remove, and control devices (Door, Light, Thermostat) with status updates. |
+| **Dynamic Device Creation** | Uses the Factory pattern to add/remove device types dynamically at runtime. |
+| **Access Control**    | Proxy pattern enforces admin/guest permissions for secure interactions. |
+| **Scheduling**        | Set timed automations for devices, like turning lights on/off at specific hours. |
+| **Triggers**          | Event-based rules, such as turning off the lights when the temperature is beyond the threshold. |
+| **Event Notifications** | Observer pattern enables real-time alerts to observers on device state changes. |
+| **Logging System**    | Comprehensive event logging to `smarthome.log` for tracking actions and errors. |
+| **Error Handling**    | Default and Custom exceptions for device-not-found errors, transient issues with recovery attempts. |
+| **User Authentication** | Simple admin/guest modes with role-based functionality. |
 
 
 ## Design Patterns Used
