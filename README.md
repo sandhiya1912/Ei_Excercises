@@ -209,7 +209,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
    cd Ei_Project
 
 2. **Compile**
-   Ensure JDK 17+ is installed. Compile all sources:
+   Ensure JDK 17+ is installed. Compile all sources:\n
    The below command compiles all the dependendcies required for Main.java.
    ```bash
    javac -d exercise_2\bin -sourcepath . exercise_2\SmartHomeSystem\Main\Main.java
