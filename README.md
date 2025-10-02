@@ -162,11 +162,11 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-Add a Light
+#### Add a Light
 <img width="200" height="210" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" />
-Add a Thermostat
+#### Add a Thermostat
 <img width="301" height="120" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
-Add a Door
+#### Add a Door
 <img width="301" height="100" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
 
 ### Turn On a Device
@@ -201,7 +201,7 @@ Add a Door
 
 ### Error Handling
 <img width="250" height="300" alt="Image" src="https://github.com/user-attachments/assets/d0267fdf-98c3-47ea-8449-be3a6781dc1d" /></br>
-<img width="300" height="90" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" /></br?
+<img width="300" height="90" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" /></br>
 <img width="250" height="100" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
 
 ### Log File (smarthome.log)
