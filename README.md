@@ -3,9 +3,9 @@
 ##  Behavioral Design Patterns
 
 ### 1. Observer Pattern  
-**Use Case:**  A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
+**Use Case:**   A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
 
-**Relation to Pattern:**  Observer pattern allows **subjects (channels)** to notify **observers (subscribers)** about state changes (new content).  
+**Relation to Pattern:**   Observer pattern allows **subjects (channels)** to notify **observers (subscribers)** about state changes (new content).  
 
 **Classes:**  
 - `Content` – Represents the video, shorts, photo uploaded to a channel.  
@@ -17,9 +17,9 @@
 
 
 ### 2. Strategy Pattern  
-**Use Case:**  A flexible notification system (Email, SMS, WhatsApp, Push) that can be changed at runtime.  
+**Use Case:**   A flexible notification system (Email, SMS, WhatsApp, Push) that can be changed at runtime.  
 
-**Relation to Pattern:**  Strategy pattern defines multiple notification methods and switches between them without altering client code.  
+**Relation to Pattern:**   Strategy pattern defines multiple notification methods and switches between them without altering client code.  
 
 **Classes:**  
 - `NotificationService` – Strategy interface for notification.  
@@ -34,9 +34,9 @@
 ## Creational Design Patterns  
 
 ### 1. Factory Pattern  
-**Use Case:**  Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a HomeAppliance factory.  
+**Use Case:**   Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a HomeAppliance factory.  
 
-**Relation to Pattern:**  Factory pattern provides an interface for creating objects, promotes loose coupling by letting subclasses decide which appliance to create.
+**Relation to Pattern:**   Factory pattern provides an interface for creating objects, promotes loose coupling by letting subclasses decide which appliance to create.
 
 **Classes:**  
 - `HomeAppliance` – Abstract product representing appliances.  
@@ -52,9 +52,9 @@
 
 
 ### 2. Prototype Pattern  
-**Use Case:**  Duplicating and reusing different types of documents (PPT, Report, Resume) efficiently without recreating from scratch.  
+**Use Case:**   Duplicating and reusing different types of documents (PPT, Report, Resume) efficiently without recreating from scratch.  
 
-**Relation to Pattern:**  Prototype pattern allows cloning existing documents, useful when object creation is costly.  
+**Relation to Pattern:**   Prototype pattern allows cloning existing documents, useful when object creation is costly.  
 
 **Classes:**  
 - `Document` – Abstract prototype defining clone behavior and structure for documents.
@@ -68,9 +68,9 @@
 ## Structural Design Patterns  
 
 ### 1. Adapter Pattern  
-**Use Case:**  Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
+**Use Case:**   Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
 
-**Relation to Pattern:**  Adapter pattern bridges the old system and the new system, allowing integration without modifying the old code.
+**Relation to Pattern:**   Adapter pattern bridges the old system and the new system, allowing integration without modifying the old code.
 
 **Classes:**  
 - `OldAttendanceSystem` – Represents the legacy attendance system.  
@@ -81,9 +81,9 @@
 
 
 ### 2. Proxy Pattern  
-**Use Case:**  A secure banking service with logging and security checks before accessing real banking services (deposit, withdraw).  
+**Use Case:**   A secure banking service with logging and security checks before accessing real banking services (deposit, withdraw).  
 
-**Relation to Pattern:**  Proxy pattern controls access to the real service by adding extra features (logging, authentication).  
+**Relation to Pattern:**   Proxy pattern controls access to the real service by adding extra features (logging, authentication).  
 
 **Classes:**  
 - `UserBank` – Represents a user details(Id, name, pin, balance) in the banking system. 
