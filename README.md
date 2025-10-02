@@ -127,19 +127,19 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 ## Design Patterns Used
 
 ### Factory Pattern
-Abstracts device creation, allowing the system to produce different device types (Door, Light, Thermostat) dynamically.  
+**Purpose:** ""Abstracts device creation, allowing the system to produce different device types (Door, Light, Thermostat) dynamically.  
 **Classes**: 
 - `DeviceFactory` - Interface of factories
 - `DeviceFactories` - Concrete factory for creating devices (Light, Thermostat, Door).
 
 ### Proxy Pattern
-Controls access to the Smart Home Hub, authenticating users and checking permissions before delegating requests.  
+**Purpose:**  Controls access to the Smart Home Hub, authenticating users and checking permissions before delegating requests.  
 **Classes**: 
 - `SmartHomeProxy` - Proxy Class that ensure the admin has full access and guest user has read-only access.
 - `SmartHomeHub` - A central Hub that implements all the functionalites for Smart Home System.
 
 ### Observer Pattern
-Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.  <br></br?
+**Purpose:**  Notifies registered observers of publisher device state changes, enabling reactive behaviors like alerts or automation.  <br></br?
 **Classes**:
 - `Observer` - Interface for observer devices.
 - `ObserverDevice` - Class that implements Observer Operations (addObservers, removeObservers, notifyObservers).
