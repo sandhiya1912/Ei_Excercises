@@ -141,12 +141,12 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 ### Classes & Responsibilities
 
 - `Device.java` – Base class for all smart devices, defining common properties and actions.  
-- `Door.java` – Represents a smart door with open/close functionality.  
+- `Door.java` – Represents a smart door with locked/unlocked functionality.  
 - `Light.java` – Represents a smart light with on/off and brightness controls.  
 - `Thermostat` – Represents a smart thermostat with temperature controls.  
-- `DeviceFactory` - Interface of factories
+- `DeviceFactory` - Interface for device factory.
 - `DeviceFactories` - Concrete factory for creating devices (Light, Thermostat, Door).
-- `Schedules` – Represents scheduled tasks for devices (timed automations).  
+- `Schedules` – Represents scheduled tasks for devices automations.  
 - `Triggers` – Represents event-based rules to automate device actions.  
 - `SmartHomeProxy` - Proxy Class that ensure the admin has full access and guest user has read-only access.
 - `SmartHomeHub` - A central Hub that implements all the functionalites for Smart Home System.
