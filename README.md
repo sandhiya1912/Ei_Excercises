@@ -232,11 +232,15 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ## Tech Stack Used
 
-- **Programming Language:** Java JDK 17+
-- **Design Patterns:** Factory, Proxy, Observer
-- **Build Tools:** Native javac
-- **Logging:** Custom file-based logger
-- **IDE:** IntelliJ IDEA
+| Category              | Tools / Technologies |
+|------------------------|----------------------|
+| **Language**           | ☕ Java (JDK 17+) |
+| **Design Patterns**    | 🏭 Factory • 🛡 Proxy • 👀 Observer |
+| **Build & Execution**  | 🔨 Native `javac` & `java` CLI |
+| **Logging**            | 📜 Custom File-based Logger (`AppLogger`) |
+| **IDE / Editor**       | 💻 IntelliJ IDEA • VS Code |
+| **Version Control**    | 🌐 Git & GitHub |
+| **OS Tested On**       | 🪟 Windows 10/11 (CLI based) |
 
 
 ## Contact
