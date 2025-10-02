@@ -163,7 +163,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Add a Device
-![Add Device Screenshot](screenshots/add_device.png](https://github.com/user-attachments/assets/5ead977f-6ef6-4e7d-af28-c7772a505539" )
+![Add Device](screenshots/add_device.png)
 
 ### Remove a Device
 ![Remove Device Screenshot](screenshots/control_device.png)
