@@ -11,9 +11,9 @@
 - `Content` – Represents the video, shorts, photo uploaded to a channel.  
 - `Subscriber` – Observer that receives notifications when new content is uploaded.  
 - `User` – Represents a subscriber entity.  
-- `Channel` – Subject interface that defines subscription management.  
-- `YouTubeChannel` – Concrete subject, manages subscribers and notifies them about updates.  
-- `YouTubeMain` – Main class to demonstrate the observer workflow.  
+- `Channel` – Youtube channel interface that defines subscription management.  
+- `YouTubeChannel` – Concrete youtube channel, manages subscribers and notifies them about updates.  
+- `YouTubeMain` – Main class to demonstrate the observer pattern.  
 
 
 ### 2. Strategy Pattern  - Notification System
