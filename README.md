@@ -99,3 +99,111 @@ Utility classes used throughout the project:
 - `AppLogger` – Singleton logger for consistent logging.  
 - `TransientError` – Represents temporary system errors.  
 - `TransientException` – Custom exception for transient error handling.   
+
+---
+
+# Smart Home System
+
+## Application Overview
+
+The **Smart Home System** is a **console-based mini-project** that simulates the control of smart devices such as **Lights, Thermostats, and Door Locks** through a central hub. The system supports dynamic device creation, event-driven notifications, schedule and trigger automations, and secure access control.
+
+---
+
+## Features
+
+- **Device Management**: Add, remove, and control devices (Door, Light, Thermostat) with status updates.  
+- **Dynamic Device Creation**: Uses the Factory pattern to instantiate device types dynamically without hardcoding.  
+- **Event Notifications**: Observer pattern enables real-time alerts on device state changes (e.g., door opened).  
+- **Access Control**: Proxy pattern enforces admin/guest permissions for secure interactions.  
+- **Scheduling**: Set timed automations for devices, like turning lights on/off at specific hours.  
+- **Triggers**: Event-based rules, such as activating lights when motion is detected via door sensor.  
+- **Logging System**: Comprehensive event logging to `smarthome.log` for tracking actions and errors.  
+- **Error Handling**: Custom exceptions for transient issues, ensuring graceful recovery.  
+- **User Authentication**: Simple admin/guest modes with role-based functionality.
+
+---
+
+## Functionality
+
+### Admin Functions
+- Full access: Add, remove, configure devices, schedules, triggers, and monitor all logs.  
+- System status: View hub status, schedules, triggers, and export logs.
+
+### Guest User Functions
+- Read-only access: View device statuses, schedules, and triggers.  
+- Limited interactions: No ability to add devices, modify schedules, or access logs.
+
+---
+
+## Design Patterns Used
+
+### Factory Pattern
+Abstracts device creation, allowing the system to produce different device types (Door, Light, Thermostat) dynamically.  
+**Classes**: `DeviceFactory`, `DeviceFactories`.
+
+### Proxy Pattern
+Controls access to the Smart Home Hub, authenticating users and checking permissions before delegating requests.  
+**Classes**: `SmartHomeProxy`, `SmartHomeHub`.
+
+### Observer Pattern
+Notifies registered observers of device state changes, enabling reactive behaviors like alerts or automation.  
+**Classes**: `Observer`, `ObserverDevice`.
+
+---
+
+## Utilities
+
+- **Logging**: `AppLogger` captures system events, errors, and user actions in `smarthome.log`.  
+- **Exceptions**: `TransientException` handles temporary failures with retry logic.  
+- **Smart Home Log File**: Records entries like `"Device 'Light1' toggled ON at 2025-10-02 14:30:00"`.
+
+---
+
+## Working of Smart Home System
+
+### Smart Home Menu
+![Smart Home Menu Screenshot](screenshots/smart_home_menu.png)
+
+### Add a Device
+![Add Device Screenshot](screenshots/add_device.png)
+
+### Remove a Device
+![Remove Device Screenshot](screenshots/control_device.png)
+
+### Turn On a Device
+![Turn On Device Screenshot](screenshots/control_device.png)
+
+### Turn Off a Device
+![Turn Off Device Screenshot](screenshots/control_device.png)
+
+### Configure a Device
+![Configure Device Screenshot](screenshots/control_device.png)
+
+### Set Schedule
+![Set Schedule Screenshot](screenshots/manage_schedules.png)
+
+### Add Trigger
+![Add Trigger Screenshot](screenshots/set_triggers.png)
+
+### Show Status
+![Show Status Screenshot](screenshots/set_triggers.png)
+
+### Show Schedules
+![Show Schedules Screenshot](screenshots/set_triggers.png)
+
+### Show Triggers
+![Show Triggers Screenshot](screenshots/set_triggers.png)
+
+### Guest Mode
+![Guest Mode Screenshot](screenshots/set_triggers.png)
+
+---
+
+## Setup & Configuration
+
+1. **Clone the repository**:  
+   ```bash
+   git clone https://github.com/yourusername/smart-home-system.git
+   cd smart-home-system
+
