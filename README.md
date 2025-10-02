@@ -165,9 +165,9 @@ Notifies registered observers of device state changes, enabling reactive behavio
 <img width="300" height="310" alt="Image" src="https://github.com/user-attachments/assets/12c07798-d855-4c49-ba92-6f4c9d49bab2" /> 
 <br></br>
 <img width="401" height="220" alt="Image" src="https://github.com/user-attachments/assets/41909b51-8e11-4757-b1c1-28c628a172e7" />
-
+<br></br>
 <img width="401" height="200" alt="Image" src="https://github.com/user-attachments/assets/37312c04-ff7e-4a2c-b2f3-0877cc03d8c2" />
-
+<br></br>
 ### Turn On a Device
 <img width="340" height="190" alt="Image" src="https://github.com/user-attachments/assets/36624261-d6fd-4549-ad9b-5a7109d19945" />
 
@@ -200,9 +200,9 @@ Notifies registered observers of device state changes, enabling reactive behavio
 
 ### Error Handling
 <img width="350" height="400" alt="Image" src="https://github.com/user-attachments/assets/d0267fdf-98c3-47ea-8449-be3a6781dc1d" />
-
+<br></br>
 <img width="400" height="190" alt="Image" src="https://github.com/user-attachments/assets/ac63d4f4-82e7-47cf-9a73-eb85da10eb32" />
-
+<br></br>
 <img width="350" height="200" alt="Image" src="https://github.com/user-attachments/assets/b60aad79-b373-45ae-afb5-cc3dcf278402" />
 
 ### Log File (smarthome.log)
