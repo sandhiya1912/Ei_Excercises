@@ -1,0 +1,62 @@
+Oct 01, 2025 10:47:51 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Smart Home application started....!
+Oct 01, 2025 10:47:53 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Admin entered the smart home system
+Oct 01, 2025 10:48:01 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device added successfully: ID = 1, Type=light
+Oct 01, 2025 10:48:09 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device added successfully: ID = 2, Type=thermostat
+Oct 01, 2025 10:48:19 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device added successfully: ID = 3, Type=door
+Oct 01, 2025 10:48:38 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device 1 turned on successfully
+Oct 01, 2025 10:49:14 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device 2 scheduled successfully
+Oct 01, 2025 10:49:30 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Trigger {temperature > 80, turnOff(1)} added successfully
+Oct 01, 2025 10:49:43 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device 2 configured successfully
+Oct 01, 2025 11:04:34 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device 3 turned off successfully
+Oct 01, 2025 11:06:03 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Device removed successfully: ID = 1
+Oct 01, 2025 11:06:49 PM exercise_2.SmartHomeSystem.Main.Main main
+WARNING: Device with ID 2 already exists.
+Oct 01, 2025 11:07:38 PM exercise_2.SmartHomeSystem.Main.Main main
+WARNING: Device with ID 10 not found.
+Oct 01, 2025 11:09:07 PM exercise_2.SmartHomeSystem.Main.Main main
+WARNING: Configuration not supported for device type light
+Oct 01, 2025 11:11:48 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Guest entered the smart home system
+Oct 01, 2025 11:11:49 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Smart Home application stopped....
+
+Oct 02, 2025 10:21:01 AM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Smart Home application started....!
+Oct 02, 2025 10:21:04 AM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Admin entered the smart home system
+Oct 02, 2025 10:21:13 AM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Device added successfully: ID = 1, Type=light
+Oct 02, 2025 10:21:24 AM exercise_2.SmartHomeSystem.Main.Main startService
+WARNING: Device with ID 2 not found.
+Oct 02, 2025 10:21:38 AM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Device added successfully: ID = 3, Type=door
+Oct 02, 2025 10:21:45 AM exercise_2.SmartHomeSystem.Main.Main startService
+WARNING: Device with ID 1 already exists.
+Oct 02, 2025 10:21:54 AM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Device 1 turned off successfully
+Oct 02, 2025 10:22:58 AM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Device removed successfully: ID = 1
+
+Oct 02, 2025 1:19:43 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Smart Home application started....!
+Oct 02, 2025 1:20:07 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Admin entered the smart home system
+Oct 02, 2025 1:20:20 PM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Smart Home Application stopped....
+Oct 02, 2025 2:32:57 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Smart Home application started....!
+Oct 02, 2025 2:33:05 PM exercise_2.SmartHomeSystem.Main.Main main
+INFO: Guest entered the smart home system
+Oct 02, 2025 2:33:22 PM exercise_2.SmartHomeSystem.Main.Main startService
+INFO: Smart Home Application stopped....

@@ -1,0 +1,31 @@
+Behavioural Pattern
+
+Observer
+Compile: javac -d exercise_1\zbin -sourcepath . exercise_1\Behavioural\Observer\YouTubeMain.java
+Run: java -cp exercise_1\zbin exercise_1.Behavioural.Observer.YouTubeMain
+
+Strategy
+Compile: javac -d exercise_1\zbin -sourcepath . exercise_1\Behavioural\Strategy\NotificationStrategies\Main.java
+Run: java -cp exercise_1\zbin exercise_1.Behavioural.Strategy.NotificationStrategies.Main
+
+
+Creational Pattern
+
+Factory
+Compile:javac -d exercise_1\zbin -sourcepath . exercise_1\Creational\Factory\Main.java
+Run:java -cp exercise_1\zbin exercise_1.Creational.Factory.Main
+
+Prototype
+Compile:javac -d exercise_1\zbin -sourcepath . exercise_1\Creational\Prototype\Main.java
+Run:java -cp exercise_1\zbin exercise_1.Creational.Prototype.Main
+
+
+Structural Pattern
+
+Adapter
+Compile: javac -d exercise_1\zbin -sourcepath . exercise_1\Structural\Adapter\Main.java
+Run: java -cp exercise_1\zbin exercise_1.Structural.Adapter.Main
+
+Proxy
+Compile: javac -d exercise_1\zbin -sourcepath . exercise_1\Structural\Proxy\Main.java
+Run: java -cp exercise_1\zbin exercise_1.Structural.Proxy.Main
