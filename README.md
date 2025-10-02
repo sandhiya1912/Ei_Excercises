@@ -1,4 +1,4 @@
-
+<img width="863" height="969" alt="image" src="https://github.com/user-attachments/assets/1ae6479e-250a-48ea-b4a2-61eb812aafc6" />
 # Exercise 1 – Design Patterns with Usecase
 
 ##  Behavioral Design Patterns
@@ -112,15 +112,15 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 ## Features
 
-- **Device Management**: Add, remove, and control devices (Door, Light, Thermostat) with status updates.  
+- **Device Management**:       Add, remove, and control devices (Door, Light, Thermostat) with status updates.  
 - **Dynamic Device Creation**: Uses the Factory pattern to instantiate device types dynamically without hardcoding.  
-- **Event Notifications**: Observer pattern enables real-time alerts on device state changes (e.g., door opened).  
-- **Access Control**: Proxy pattern enforces admin/guest permissions for secure interactions.  
-- **Scheduling**: Set timed automations for devices, like turning lights on/off at specific hours.  
-- **Triggers**: Event-based rules, such as activating lights when motion is detected via door sensor.  
-- **Logging System**: Comprehensive event logging to `smarthome.log` for tracking actions and errors.  
-- **Error Handling**: Custom exceptions for transient issues, ensuring graceful recovery.  
-- **User Authentication**: Simple admin/guest modes with role-based functionality.
+- **Event Notifications**:     Observer pattern enables real-time alerts on device state changes (e.g., door opened).  
+- **Access Control**:          Proxy pattern enforces admin/guest permissions for secure interactions.  
+- **Scheduling**:              Set timed automations for devices, like turning lights on/off at specific hours.  
+- **Triggers**:                Event-based rules, such as activating lights when motion is detected via door sensor.  
+- **Logging System**:          Comprehensive event logging to `smarthome.log` for tracking actions and errors.  
+- **Error Handling**:          Custom exceptions for transient issues, ensuring graceful recovery.  
+- **User Authentication**:     Simple admin/guest modes with role-based functionality.
 
 ---
 
@@ -163,7 +163,7 @@ Notifies registered observers of device state changes, enabling reactive behavio
 ## Working of Smart Home System
 
 ### Smart Home Menu
-![Smart Home Menu Screenshot](screenshots/smart_home_menu.png)
+<img width="863" height="969" alt="image" src="https://github.com/user-attachments/assets/d5a078ba-de43-433c-bc90-a65a165013d8" />
 
 ### Add a Device
 ![Add Device Screenshot](screenshots/add_device.png)
