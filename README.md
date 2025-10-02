@@ -235,5 +235,5 @@ Notifies registered observers of device state changes, enabling reactive behavio
 - **Email:** sandhiyapomman@gmail.com
 - **GitHub:** [github.com/sandhiyapomman](https://github.com/sandhiya1912/Sandhiya-Pomman)
 
-Feel free to reach out for questions or contributions!
+Feel free to reach out for questions about this project!
 
