@@ -2,7 +2,7 @@
 
 ##  Behavioral Design Patterns
 
-### 1. Observer Pattern  
+### 1. Observer Pattern  - Youtube Channel
 **Use Case:**   A YouTube-like subscription system where users subscribe to channels and get notified when new content is uploaded.  
 
 **Relation to Pattern:**   Observer pattern allows **subjects (channels)** to notify **observers (subscribers)** about state changes (new content).  
@@ -16,7 +16,7 @@
 - `YouTubeMain` – Main class to demonstrate the observer workflow.  
 
 
-### 2. Strategy Pattern  
+### 2. Strategy Pattern  - Notification System
 **Use Case:**   A flexible notification system (Email, SMS, WhatsApp, Push) that can be changed at runtime.  
 
 **Relation to Pattern:**   Strategy pattern defines multiple notification methods and switches between them without altering client code.  
@@ -33,7 +33,7 @@
 
 ## Creational Design Patterns  
 
-### 1. Factory Pattern  
+### 1. Factory Pattern - Home Appliance Factory.
 **Use Case:**   Creating different types of home appliances (Microwave, Refrigerator, Washing Machine) using a HomeAppliance factory.  
 
 **Relation to Pattern:**   Factory pattern provides an interface for creating objects, promotes loose coupling by letting subclasses decide which appliance to create.
@@ -51,7 +51,7 @@
 - `Main` – Main method that implements the factory pattern for Home Appliance. 
 
 
-### 2. Prototype Pattern  
+### 2. Prototype Pattern  - Document Creator and Editor
 **Use Case:**   Duplicating and reusing different types of documents (PPT, Report, Resume) efficiently without recreating from scratch.  
 
 **Relation to Pattern:**   Prototype pattern allows cloning existing documents, useful when object creation is costly.  
@@ -67,7 +67,7 @@
 
 ## Structural Design Patterns  
 
-### 1. Adapter Pattern  
+### 1. Adapter Pattern  - FingerPrint Based Attendance System.
 **Use Case:**   Modernizing an old attendance system with a new fingerprint-based system while maintaining compatibility.  
 
 **Relation to Pattern:**   Adapter pattern bridges the old system and the new system, allowing integration without modifying the old code.
@@ -80,7 +80,7 @@
 - `Main` – Main method that implements the adapter pattern.
 
 
-### 2. Proxy Pattern  
+### 2. Proxy Pattern  -  Banking Application
 **Use Case:**   A secure banking service with logging and security checks before accessing real banking services (deposit, withdraw).  
 
 **Relation to Pattern:**   Proxy pattern controls access to the real service by adding extra features (logging, authentication).  
