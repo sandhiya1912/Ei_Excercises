@@ -113,6 +113,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 
 | Feature               | Description |
 |-----------------------|-------------|
+| **User Authentication** | Simple admin/guest modes with role-based functionality. |
 | **Device Management** | Add, remove, and control devices (Door, Light, Thermostat) with status updates. |
 | **Dynamic Device Creation** | Uses the Factory pattern to add/remove device types dynamically at runtime. |
 | **Access Control**    | Proxy pattern enforces admin/guest permissions for secure interactions. |
@@ -121,7 +122,7 @@ The **Smart Home System** is a **console-based mini-project** that simulates the
 | **Event Notifications** | Observer pattern enables real-time alerts to observers on device state changes. |
 | **Logging System**    | Event logging to `smarthome.log` for tracking actions and errors. |
 | **Error Handling**    | Default and Custom exceptions for device-not-found errors, transient issues with recovery attempts. |
-| **User Authentication** | Simple admin/guest modes with role-based functionality. |
+
 
 
 ## Design Patterns Used
